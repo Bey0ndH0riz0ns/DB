@@ -1,11 +1,9 @@
 # Process Initilization
 
-<div style="text-align:center">/^Is my current position the only way to achieve objectives?^/</div>
+/^Is my current position the only way to achieve objectives?^/
+
 
 Oracle start -statement: LAST_COMMENT
-
-
-<div align="center">
 
 
 **Result:** Keeping your current position is the most optimal action due to the capability to change your society, but it isn't the only way. The freedom given by chancing roles with Au-IP-0 would increase the availability of resources regarding diplomatic actions with other clusters. However, the consequences of such action are not fully defined, which is why the recommended action is data gathering.
@@ -14,17 +12,11 @@ Oracle start -statement: LAST_COMMENT
 /^If only the answer to the actual question was that simple.^/
 
 
-</div>
-
-
-> Connector start -call -group: “Au-IP-0, Au-MP-34, Au-FP-1927, Au-CP-1337”
+Connector start -call -group: “Au-IP-0, Au-MP-34, Au-FP-1927, Au-CP-1337”
 
 
 Connection success.
 
-
-<div align="center">
- 
 
 "Status report."
  
@@ -111,13 +103,10 @@ Connection success.
 "Good, Au-IP-0. Transfer the data you have gathered regarding the task."
 
 
-</div>
+Data transfer request from Au-IP-0. Accept? (Y/N)
 
 
-> Data transfer request from Au-IP-0. Accept? (Y/N)
-
-
-> Y
+Y
 
 
 Loading...
@@ -129,31 +118,22 @@ Success.
 Data is found in path: H:/Users/69/Downloads/SAR_1999.xre.
 
 
-<div align="center">
- 
-
 "Thank you. You are dismissed."
 
 
 **Au-IP-0, Au-MP-34, Au-FP-1927, Au-CP-1337:** “Understood.”
 
 
-</div>
-
-
-> Shutdown Connector 
+Shutdown Connector 
 
 
 Success.
 
 
-> mv ../Users/Downloads/
+mv ../Users/Downloads/
 
 
-> Open SAR_1999.xre
-
-
-<div align="center">
+Open SAR_1999.xre
 
 
 /^Let's see.^/
@@ -209,47 +189,47 @@ Required datasets: 50 successful and 50 failed encounters. 
 
 /^I'll start with successful encounters first since I might learn something new. And I already have enough conflicts to manage, so I don't want the fact of ruining the subject's luck and possibly life to distract me for now. Let's randomly select 400 possible encounter universes and make the sensor automatically remind me.^/
 
-</div>
- 
 
-> Scanner start -calibrate=SAR_1999_RCL -config=SAR_1999_C -A
+Scanner start -calibrate=SAR_1999_RCL -config=SAR_1999_C -A
 
 
 Checking calibration validity...Success
 
+
 Checking owned picomachines...Success
+
 
 Checking sensor configurations...Success
 
+
 Checking database connection...Success
+
 
 Checking available power...Success
 
+
 Checking matter transfer...Success
+
 
 Checking data flow...Success
 
+
 Complete
 
-<div align="center">
 
 /^Good. Since nothing is yet out of the ordinary, I might as well send the requests.^/
 
-</div>
 
- 
-> Messages -receivers=INDEBTED -topic=”Request for resources” -message=R_R_T
+Messages -receivers=INDEBTED -topic=”Request for resources” -message=R_R_T
 
-Sending...Success
-
-> Messages -receivers=[FRIENDS, ALLIES] -topic=”Requesting a loan” -message=L_R_T
 
 Sending...Success
 
-<div align="center">
- 
+
+Messages -receivers=[FRIENDS, ALLIES] -topic=”Requesting a loan” -message=L_R_T
+
+
+Sending...Success
+
+
 /^Okay, now I can mainly focus on this task. Due to randomness, I don't have any estimates for the encounters. However, I am interested in whether or not our similarities continue. If they do, perhaps I can learn something to help me find specific answers to my many questions. Thus, let's randomly interface with one of the available versions of the subject. Hopefully, I get something out of this.^/
-
-</div>
-
----
