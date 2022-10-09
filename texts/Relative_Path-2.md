@@ -1,15 +1,8 @@
 # Process Initilization
 
-<div align="center">
+<div style="text-align:center">/^Is my current position the only way to achieve objectives?^/</div>
 
-
-/^Is my current position the only way to achieve objectives?^/
-
-
-</div>
-
- 
-> Oracle start -statement: LAST_COMMENT
+Oracle start -statement: LAST_COMMENT
 
 
 <div align="center">
